@@ -1,0 +1,23 @@
+.Nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: rgba(13,18,21,1);
+
+    .nav-list {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        color: #fff;
+
+        .nav-item {
+            padding: 0 15px;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+}

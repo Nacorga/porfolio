@@ -1,0 +1,45 @@
+.About {
+    padding: 50px 0;
+    position: relative;
+    color: #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .placeholder-box {
+        overflow: visible;
+        padding: 15px;
+        
+        .placeholder {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 250px;
+            overflow: hidden;
+            border-radius: 100%;
+        }
+
+        img {
+            position: relative;
+            width: 100%;
+        }
+    }
+}
+
+
+.gradient-box {
+    position: relative;
+
+    img {
+        border-radius: 100%;
+        background: #111;
+        border: 5px solid transparent;
+        background-clip: padding-box;
+    }
+  
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background: linear-gradient(to top, #283048, #859398);
+    }
+  }
