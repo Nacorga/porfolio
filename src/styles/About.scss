@@ -1,7 +1,5 @@
 .About {
-    padding: 50px 0;
     position: relative;
-    color: #d4d4d4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +21,23 @@
             width: 100%;
         }
     }
+
+    .row-text {
+        text-align: center;
+
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #d4d4d4;
+            margin-bottom: 0;
+        }
+    }
 }
 
 
@@ -35,11 +50,11 @@
         border: 5px solid transparent;
         background-clip: padding-box;
     }
-  
+
     &:before {
-      content: '';
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      background: linear-gradient(to top, #283048, #859398);
+        content: '';
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background: linear-gradient(to top, #283048, #859398);
     }
-  }
+}

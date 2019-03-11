@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "id": "enjoy-madrid",
+            "title": "Enjoy Madrid",
+            "technology": "Angular 6 / Ionic 3"
+        },
+        {
+            "id": "terracitas-madrid",
+            "title": "Terracitas Madrid",
+            "technology": "Ionic 3"
+        },
+        {
+            "id": "tasks-lis",
+            "title": "Tasks list",
+            "technology": "React"
+        },
+        {
+            "id": "google-maps",
+            "title": "Google Maps",
+            "technology": "Javascript"
+        },
+        {
+            "id": "web-template",
+            "title": "Web template",
+            "technology": "HTML / CSS / Jquery"
+        },
+        {
+            "id": "green-space-madrid",
+            "title": "Green Space Madrid",
+            "technology": "HTML / CSS / Javascript"
+        },
+        {
+            "id": "axa-gulf",
+            "title": "AXA Gulf",
+            "technology": "HTML / SASS / Jquery"
+        },
+        {
+            "id": "grupo-octilus",
+            "title": "Grupo Octilus",
+            "technology": "Wordpress"
+        }
+    ]
+}

@@ -5,6 +5,8 @@ import './styles/App.scss';
 import Navbar from './components/Navbar';
 import HomeComponent from './components/pages/Home';
 import AboutComponent from './components/pages/About';
+import ResumeComponent from './components/pages/Resume';
+import ProjectsComponent from './components/pages/Projects';
 
 class App extends Component {
 
@@ -16,11 +18,17 @@ class App extends Component {
                 <Navbar />
                 <HomeComponent />
 
-                <div className="bkg black">
+                <div className="bkg dark vp">
                     <div className="container">
-                        <AboutComponent />
+                        <AboutComponent title="About me" />
                     </div>
                 </div>
+
+                <div className="bkg light vp">
+                    <ResumeComponent title="Resume" />
+                </div>
+
+                <ProjectsComponent />
 
             </div>
         );

@@ -1,0 +1,77 @@
+@import '../variables.scss';
+
+.Resume {
+    width: 100%;
+
+    .container .row:first-child {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #E8E8E8; 
+    }
+
+    .container .row:last-child {
+        padding-top: 40px;
+    }
+
+    .resume-title {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        span {
+            border-bottom: 3px solid $secondary-light;
+            padding-bottom: 6px;
+        }
+    }
+
+    .list-item {
+
+        p {
+            margin: 0;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        .item-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .ball-separator {
+            margin: 0 10px;
+        }
+
+        .item-info {
+            font-size: 16px;
+            line-height: 24px;
+
+            .work-role {
+                font-size: 16px;
+                font-style: italic;
+            }
+        }
+
+        .item-description {
+            font-size: 16px;
+            margin-top: 15px;
+            line-height: 24px;
+            color: #6E7881;
+        }
+
+        .pills {
+            margin-top: 10px;
+
+            span {
+                background: $secondary-dark;
+                color: #fff;
+
+                &:not(:last-child) {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

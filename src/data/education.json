@@ -1,0 +1,19 @@
+{
+    "education": [
+        {
+            "school": "Fictizia",
+            "certificate": "Angular 7",
+            "dates": "November 2018 - January 2019"
+        },
+        {
+            "school": "AEPI",
+            "certificate": "Javascript ES6",
+            "dates": "November 2017 - February 2018"
+        },
+        {
+            "school": "Discovery Formación",
+            "certificate": "Web and graphic design",
+            "dates": "October 2013 - March 2014"
+        }
+    ]
+}

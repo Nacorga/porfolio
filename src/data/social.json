@@ -2,22 +2,27 @@
     "social": [
         {
             "name": "Linkedin",
-            "url": "https://www.linkedin.com/in/ignacio-cort%C3%A9s-72940b96/"
+            "url": "https://www.linkedin.com/in/ignacio-cort%C3%A9s-72940b96/",
+            "icon": "linkedin"
         },
         {
             "name": "Github",
-            "url": "https://github.com/Nacorga"
+            "url": "https://github.com/Nacorga",
+            "icon": "github"
         },
         {
             "name": "Stackoverflow",
-            "url": "https://stackoverflow.com/users/9490169/nacorga"
+            "url": "https://stackoverflow.com/users/9490169/nacorga",
+            "icon": "stack-overflow"
         },
         {
             "name": "Codepen",
-            "url": "https://codepen.io/Nacorga/"
+            "url": "https://codepen.io/Nacorga/",
+            "icon": "codepen"
         },{
             "name": "Instagram",
-            "url": "https://www.instagram.com/wild_nach/"
+            "url": "https://www.instagram.com/wild_nach/",
+            "icon": "instagram"
         }
     ]
 }
