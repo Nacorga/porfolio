@@ -1,0 +1,52 @@
+@import '../variables.scss';
+
+.Contact {
+    width: 100%;
+
+    .contact-title {
+        font-size: 32px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 60px;
+        color: #fff;
+    }
+
+    .contact-form {
+
+        .row:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            border-radius: 0;
+            color: #fff;
+
+            &:focus {
+                box-shadow: none;
+            }
+
+        }
+
+        input.form-control {
+            min-height: 50px;
+        }
+
+        textarea.form-control {
+            min-height: 150px;
+        }
+
+        .submit-btn {
+            cursor: pointer;
+            font-family: 'Raleway', sans-serif;
+            transition: all .25s ease-in-out;
+            padding: 10px 20px;
+            border: none;
+            background: $secondary-light;
+            color: #fff;
+        }
+
+    }
+
+}

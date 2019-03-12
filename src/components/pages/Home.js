@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../styles/Home.scss';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class HomeComponent extends Component {
 
@@ -16,7 +16,7 @@ class HomeComponent extends Component {
                         <h1>and I'm Front End developer</h1>
                     </div>
                     <Link activeClass="active" to="About" spy={true} smooth={true} offset={-70} duration={500}>
-                        <button className="button">View my work<i class="fas fa-arrow-right"></i></button>
+                        <button className="button">View my work<i className="fas fa-arrow-right"></i></button>
                     </Link>
                 </div>
             </div>

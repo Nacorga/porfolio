@@ -14,8 +14,8 @@ class Navbar extends Component {
 
         const navItems = arrayOfNavItems.map((item, i) => {
             return (
-                <li className="nav-item">
-                    <Link activeClass="active" to={item} spy={true} smooth={true} offset={-80} duration={500}>{item}</Link>
+                <li className="nav-item" key={i}>
+                    <Link activeClass="active" to={item} spy={true} smooth={true} offset={-80} duration={1000}>{item}</Link>
                 </li>
             )
         });

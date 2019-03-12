@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .vp {
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 .bkg {
@@ -9,15 +9,33 @@
     display: flex;
     align-items: center;
 
-    &.dark {
-        background: rgb(1,14,22); /* Old browsers */
-        background: -moz-linear-gradient(left, rgba(1,14,22,1) 0%, rgba(3,17,28,1) 50%, rgba(1,14,22,1) 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, rgba(1,14,22,1) 0%,rgba(3,17,28,1) 50%,rgba(1,14,22,1) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, rgba(1,14,22,1) 0%,rgba(3,17,28,1) 50%,rgba(1,14,22,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010e16', endColorstr='#010e16',GradientType=1 ); /* IE6-9 */
+    &.blue-dark {
+        background: $primary-dark;
+    }
+
+    &.blue-light {
+        background: $primary-light;
     }
 
     &.light {
         background: #fff;
     }
+}
+
+.arrow-box {
+    cursor: pointer;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -30px;
+    background: $primary-dark;
+    color: #fff;
+    border: 3px solid $primary-light;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

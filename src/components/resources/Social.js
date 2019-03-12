@@ -19,7 +19,7 @@ class SocialComponent extends Component {
         const socialItems = this.state.social.map((socialItem, i) => {
 
             return (
-                <li className="social-item">
+                <li className="social-item" key={i}>
                     <a href={socialItem.url}>
                         <i className={"icon fab fa-" + socialItem.icon}></i>
                     </a>

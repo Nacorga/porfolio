@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../styles/Resume.scss';
 import { education } from '../../data/education.json';
 import { works } from '../../data/works.json';
+import Slide from 'react-reveal/Slide';
 
 class ResumeComponent extends Component {
 
@@ -20,7 +21,7 @@ class ResumeComponent extends Component {
 
         const education = this.state.education.map((edu, i) => {
             return (
-                <li className="list-item">
+                <li className="list-item" key={i}>
                     <h3 className="item-title">{edu.school}</h3>
                     <p className="item-info">
                         <span className="work-role">{edu.certificate}</span>
@@ -33,7 +34,7 @@ class ResumeComponent extends Component {
 
         const works = this.state.works.map((work, i) => {
             return (
-                <li className="list-item">
+                <li className="list-item" key={i}>
                     <h3 className="item-title">{work.title}</h3>
                     <p className="item-info">
                         <span className="work-role">{work.role}</span>
@@ -43,9 +44,9 @@ class ResumeComponent extends Component {
                     <p className="item-description">{work.description}</p>
                     <div className="pills">
                         {
-                            work.technologies.map(tech => {
+                            work.technologies.map((tech, e) => {
                                 return (
-                                    <span class="badge badge-pill">{tech}</span>
+                                    <span className="badge badge-pill" key={e}>{tech}</span>
                                 )
                             })
                         }
@@ -61,21 +62,29 @@ class ResumeComponent extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <h2 className="resume-title"><span>Education</span></h2>
+                            <Slide left>
+                                <h2 className="resume-title"><span>Education</span></h2>
+                            </Slide>
                         </div>
                         <div className="col-md-8">
                         <ul className="education-list">
-                            { education }
+                            <Slide right>
+                                { education }
+                            </Slide>
                         </ul>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-4">
-                            <h2 className="resume-title"><span>Works</span></h2>
+                            <Slide left>
+                                <h2 className="resume-title"><span>Works</span></h2>
+                            </Slide>
                         </div>
                         <div className="col-md-8">
                             <ul className="works-list">
-                                { works }
+                                <Slide right>
+                                    { works }
+                                </Slide>
                             </ul>
                         </div>
                     </div>
