@@ -3,34 +3,35 @@
 .Bars {
 
     .bar-flex {
+        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 30px;
         margin: 20px 0;
         background: #fafafa;
+        overflow: hidden;
 
         .bar-fill {
             background: $secondary-dark;
             height: 30px;
-            position: relative;
+        }
 
-            .tag {
-                background: $secondary-light;
-                height: 30px;
-                width: 100px;
-                text-align: center;
-                color: #fff;
-                font-size: 14px;
-                line-height: 14px;
-                font-weight: bold;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
+        .tag {
+            background: $secondary-light;
+            height: 30px;
+            width: 100px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            line-height: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
 
         .percent {

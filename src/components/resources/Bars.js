@@ -20,22 +20,19 @@ class BarsComponent extends Component {
         const bars = this.state.bars.map((bar, i) => {
             return (
                 <div className="bar-flex" key={i}>
-                    <div className="bar-fill" style={{width: bar.percent + '%'}}>
+                    <Slide left cascade>
+                        <div className="bar-fill" style={{width: bar.percent + '%'}}></div>
                         <div className="tag">{bar.name}</div>
-                    </div>
+                    </Slide>
                     <span className="percent">{bar.percent}%</span>
                 </div>
             )
         });
 
-        return (
-
-            <Slide right cascade>
-                <div className="Bars">
-                    { bars }
-                </div>
-            </Slide>
-
+        return (            
+            <div className="Bars">
+                { bars }
+            </div>
         )
 
     }

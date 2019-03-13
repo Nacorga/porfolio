@@ -1,32 +1,32 @@
 {
     "works": [
         {
-            "title": "Work 1",
+            "title": "The Key Talent",
             "dates": "April 2019 - Present",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed lorem sed purus scelerisque molestie a non tellus. Maecenas sit amet urna hendrerit, vulputate nisi vitae, suscipit lorem.",
             "role": "Front End developer",
-            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
+            "technologies": ["Angular 4/6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git"]
         },
         {
-            "title": "Work 2",
-            "dates": "August 2018 - March 2019",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed lorem sed purus scelerisque molestie a non tellus. Maecenas sit amet urna hendrerit, vulputate nisi vitae, suscipit lorem.",
+            "title": "Amaris",
+            "dates": "August 2018 - April 2019",
+            "description": "Renovation of the AXA Group web portal within the company's technology department. This was an international project with clients from countries as Saudi Arabia, United Arab Emirates and Greece.",
             "role": "Front End developer",
-            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
+            "technologies": ["Angular 6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp"]
         },
         {
-            "title": "Work 3",
-            "dates": "From August 2018 to March 2019",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed lorem sed purus scelerisque molestie a non tellus. Maecenas sit amet urna hendrerit, vulputate nisi vitae, suscipit lorem.",
-            "role": "Web designer",
-            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
+            "title": "Hiberus Tecnología",
+            "dates": "January 2018 to August 2018",
+            "description": "Project with the Spanish public television (RTVE) where I collaborated with the innovation department in the development of web and hybrid applications. I also participated in the design of the content of the public portal.",
+            "role": "Front End developer",
+            "technologies": ["Angular 6", "Ionic 3", "HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
         },
         {
-            "title": "Work 4",
-            "dates": "From August 2018 to March 2019",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed lorem sed purus scelerisque molestie a non tellus. Maecenas sit amet urna hendrerit, vulputate nisi vitae, suscipit lorem.",
+            "title": "Grupo Octilus S.L.",
+            "dates": "March 2017 - January 2018",
+            "description": "Responsible for the design and layout of ecommerce about mobile accessories. I was also managing the content of the portal.",
             "role": "Web master",
-            "technologies": ["HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
+            "technologies": ["HTML5", "CSS3", "Magento", "Illustrator", "Photoshop"]
         }
     ]
 }

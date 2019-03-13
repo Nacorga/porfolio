@@ -67,11 +67,11 @@ class ResumeComponent extends Component {
                             </Slide>
                         </div>
                         <div className="col-md-8">
-                        <ul className="education-list">
-                            <Slide right>
-                                { education }
-                            </Slide>
-                        </ul>
+                            <ul className="education-list">
+                                <Slide right>
+                                    { education }
+                                </Slide>
+                            </ul>
                         </div>
                     </div>
                     <div className="row">
