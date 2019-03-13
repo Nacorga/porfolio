@@ -58,7 +58,7 @@ class ResumeComponent extends Component {
 
         return(
 
-            <div className="Resume">
+            <div className="resume-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">

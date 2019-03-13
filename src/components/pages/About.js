@@ -11,7 +11,7 @@ class AboutComponent extends Component {
 
         return (
 
-            <div className="About row">
+            <div className="about-section row">
                 <div className="col-md-6">
                     <Flip left cascade>
                         <div className="placeholder-box">

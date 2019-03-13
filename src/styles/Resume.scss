@@ -1,7 +1,10 @@
 @import '../variables.scss';
 
 .Resume {
-    width: 100%;
+
+    .resume-section {
+        width: 100%;
+    }
 
     .container .row:first-child {
         padding-bottom: 40px;

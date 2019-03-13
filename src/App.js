@@ -21,24 +21,26 @@ class App extends Component {
                 <Navbar />
                 <HomeComponent />
 
-                <div className="bkg blue-dark vp">
+                <div className="About bkg blue-dark vp">
                     <div className="container">
                         <AboutComponent title="About me" />
                     </div>
                 </div>
 
-                <div className="bkg light vp">
+                <div className="Resume bkg light vp">
                     <ResumeComponent title="Resume" />
                 </div>
 
-                <ProjectsComponent title="Projects" />
+                <div className="Projects">
+                    <ProjectsComponent title="Projects" />
+                </div>
 
-                <div className="bkg blue-light vp">
+                <div className="Contact bkg blue-light vp">
                     <ContactComponent title="Have a question or want to work together?" />
                 </div>
 
-                <div className="bkg blue-dark vp">
-                    <Link activeClass="active" onClick={scroll.scrollToTop} spy={true} smooth={true} offset={-80} duration={1000}>
+                <div className="bkg blue-dark">
+                    <Link activeClass="active" onClick={scroll.scrollToTop} spy={true} smooth={true} duration={1500}>
                         <div className="arrow-box">
                             <i className="fas fa-arrow-up"></i>
                         </div>

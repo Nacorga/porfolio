@@ -1,11 +1,14 @@
 @import '../variables.scss';
 
 .Projects {
-    height: 500px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
+
+    .projects-section {
+        height: 500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+    }
 
     .project {
         position: relative;

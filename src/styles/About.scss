@@ -1,8 +1,11 @@
 .About {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    .about-section {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .placeholder-box {
         overflow: visible;

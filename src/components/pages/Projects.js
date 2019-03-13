@@ -49,7 +49,7 @@ class ProjectsComponent extends Component {
         return [
 
             <Flip bottom cascade>
-                <div className="Projects">
+                <div className="projects-section">
                     { projects }
                 </div>
             </Flip>

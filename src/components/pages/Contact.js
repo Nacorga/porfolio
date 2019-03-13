@@ -8,7 +8,7 @@ class ContactComponent extends Component {
 
         return (
 
-            <div className="Contact">
+            <div className="contact-section">
                 <div className="container">
                     <Fade bottom>
                         <div className="row">
