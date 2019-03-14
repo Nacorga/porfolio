@@ -46,9 +46,14 @@
             transition: all .25s ease-in-out;
             padding: 10px 20px;
             border: none;
-            background: $secondary-light;
-            color: $primary-dark;
+            background-color: $secondary-light;
+            color: #fff;
             font-weight: bold;
+            transition: background-color .25s ease-in-out;
+
+            &:hover {
+                background-color: $secondary-dark;
+            }
         }
 
     }

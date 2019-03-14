@@ -2,7 +2,6 @@
 
 .Nav {
     z-index: 999;
-    width: 100%;
     overflow: hidden;
     position: fixed;
     top: 15px;
@@ -11,16 +10,17 @@
     .nav-button {
         cursor: pointer;
         border-radius: 100%;
-        background: $primary-dark;
+        background: #2e3341;
         width: 50px;
         height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
+        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 
         i {
             font-size: 24px;
-            color: #fff;
+            color: #d4d4d4;
         }
     }
 
@@ -38,11 +38,12 @@
             display: inline-block;
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
+            letter-spacing: 1px;
             font-weight: bold;
-            text-transform: uppercase;
-            color: $primary-dark;
+            color: #fff;
             padding: 5px 15px;
             background-color: $secondary-light;
+            box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
             border-radius: 3px;
             transition: background-color .25s ease-in-out;
 
@@ -52,4 +53,11 @@
         }
     }
 
+    button.hamburger {
+        display: flex;
+
+        &:focus {
+            outline: none;
+        }
+    }
 }
