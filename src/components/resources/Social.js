@@ -20,7 +20,7 @@ class SocialComponent extends Component {
 
             return (
                 <li className="social-item" key={i}>
-                    <a href={socialItem.url}>
+                    <a href={socialItem.url} target="_blank" rel="noopener noreferrer">
                         <i className={"icon fab fa-" + socialItem.icon}></i>
                     </a>
                 </li>

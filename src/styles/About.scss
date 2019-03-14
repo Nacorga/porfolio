@@ -62,3 +62,13 @@
         background: linear-gradient(to top, #283048, #859398);
     }
 }
+
+@media (max-width: 576px) {
+
+    .About {
+        .col-md-6:first-child {
+            margin-bottom: 30px;
+        }
+    }
+
+}

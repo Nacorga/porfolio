@@ -59,3 +59,15 @@
     }
 
 }
+
+@media (max-width: 576px) {
+
+    .Contact {
+        .contact-title {
+            font-size: 28px;
+            font-family: 'Raleway', sans-serif;
+            margin-bottom: 60px;
+            color: #fff;
+        }
+    }
+}

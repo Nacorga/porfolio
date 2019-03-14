@@ -36,7 +36,23 @@
             position: absolute;
             top: 0;
             opacity: 0;
+            padding: 15px;
             transition: all .25s ease-in-out;
+
+            .project-title {
+                font-family: 'Raleway', sans-serif;
+                font-size: 24px;
+            }
+
+            .project-type {
+                font-size: 16px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 95%;
+                display: block;
+                margin: 0 auto;
+            }
         }
 
         .button {
@@ -71,6 +87,68 @@
             .button {
                 bottom: 50px;
                 opacity: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Projects {
+
+        .projects-section {
+            height: 400px;
+        }
+
+        .project {
+    
+            .text {
+                .project-title {
+                    font-size: 22px;
+                }
+                .project-type {
+                    font-size: 14px;
+                }
+            }
+
+            &:hover {
+                .text {
+                    top: 25px;
+                }
+    
+                .button {
+                    bottom: 25px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .Projects {
+
+        .projects-section {
+            height: 800px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 25% 25% 25% 25%;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+
+    .Projects {
+
+        .project {
+    
+            .text {
+                .project-title {
+                    font-size: 18px;
+                }
             }
         }
     }

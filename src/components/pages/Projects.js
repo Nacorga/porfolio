@@ -6,9 +6,9 @@ import PopupComponent from '../resources/Popup';
 
 class ProjectsComponent extends Component {
 
-    constructor(props) {
+    constructor() {
 
-        super(props);
+        super();
 
         this.state = {
             projects: projects,
@@ -48,7 +48,7 @@ class ProjectsComponent extends Component {
 
         return [
 
-            <Flip bottom cascade>
+            <Flip bottom cascade key="flip">
                 <div className="projects-section">
                     { projects }
                 </div>
@@ -56,7 +56,7 @@ class ProjectsComponent extends Component {
 
             ,
 
-            <PopupComponent data={this.state.project} open={this.state.open} closeFromChild={this.closeModal} />
+            <PopupComponent key="popup" data={this.state.project} open={this.state.open} closeFromChild={this.closeModal} />
 
         ]
 

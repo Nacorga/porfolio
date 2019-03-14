@@ -1,5 +1,21 @@
 @import '../variables.scss';
 
+.App {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 2;
+    background: #2e3341;
+
+    &.active {
+        display: block;
+    }
+}
+
 .vp {
     padding: 120px 0;
 }
@@ -44,4 +60,12 @@
     &:hover {
         transform: scale(1.25);
     }
+}
+
+@media (max-width: 576px) {
+
+    .vp {
+        padding: 60px 0;
+    }
+
 }

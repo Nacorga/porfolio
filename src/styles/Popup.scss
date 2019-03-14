@@ -43,16 +43,15 @@
 
             .react-modal-subtitle {
                 margin-bottom: 20px;
-            }
-
-            .react-modal-subtitle,
-            .react-modal-description {
-                font-size: 16px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
                 line-height: 24px;
             }
             
             .react-modal-description {
                 margin-bottom: 30px;
+                font-size: 16px;
+                line-height: 24px;
             }
 
             .react-modal-link {
@@ -74,4 +73,43 @@
             }
         }
     }
+}
+
+@media (max-width: 576px) {
+
+    .react-modal {
+
+        .react-modal-body {
+            flex-direction: column;
+    
+            .modal-text {
+                width: 100%;
+                padding-right: 0;
+    
+                .react-modal-title {
+                    font-size: 28px;
+                    line-height: 32px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                
+                .react-modal-description {
+                    margin-bottom: 15px;
+                }
+            }
+    
+            .image-box {
+                margin-top: 20px;
+                width: 100%;
+                padding-left: 0;
+    
+                img {
+                    width: 100%;
+                    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+                }
+            }
+        }
+
+    }
+
 }

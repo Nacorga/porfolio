@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import Fade from 'react-reveal/Fade';
 import './styles/App.scss';
 
 // Components
@@ -13,13 +14,39 @@ import FooterComponent from './components/Footer';
 
 class App extends Component {
 
+    constructor() {
+
+        super();
+
+        this.state = {show: false}
+
+        this.toggleOverlay = this.toggleOverlay.bind(this);
+
+    }
+
+    toggleOverlay() {
+
+        var overlay = document.querySelector(".overlay");
+        overlay.classList.toggle("active");
+
+        this.setState({ show: !this.state.show });
+
+    }
+
     render() {
 
         return (
             <div className="App">
 
-                <Navbar />
-                <HomeComponent />
+                <Fade left when={this.state.show}>
+                    <div className="overlay"></div>
+                </Fade>
+                
+                <Navbar toggleOverlay={this.toggleOverlay} />
+
+                <div className="Home">
+                    <HomeComponent />
+                </div>
 
                 <div className="About bkg blue-dark vp">
                     <div className="container">
@@ -40,7 +67,7 @@ class App extends Component {
                 </div>
 
                 <div className="bkg blue-dark">
-                    <Link activeClass="active" onClick={scroll.scrollToTop} spy={true} smooth={true} duration={1500}>
+                    <Link activeClass="active" to="Home" spy={true} smooth={true} duration={1500}>
                         <div className="arrow-box">
                             <i className="fas fa-arrow-up"></i>
                         </div>

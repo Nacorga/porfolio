@@ -25,7 +25,7 @@ class PopupComponent extends Component {
                                     <h3 className="react-modal-title">{this.props.data.title}</h3>
                                     <p className="react-modal-subtitle">{this.props.data.technology}</p>
                                     <p className="react-modal-description">{this.props.data.description}</p>
-                                    <a className="react-modal-link" href={this.props.data.url} target="_blank">Go to this project</a>
+                                    <a className="react-modal-link" href={this.props.data.url} target="_blank" rel="noopener noreferrer">Go to this project</a>
                                 </div>
                                 <div className="image-box">
                                     <img src={this.props.data.img} alt={this.props.data.title}></img>
