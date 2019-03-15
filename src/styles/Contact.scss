@@ -16,7 +16,7 @@
     .contact-form {
 
         .row:not(:last-child) {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .form-control {
@@ -56,8 +56,19 @@
             }
         }
 
-    }
-
+        .form-group {
+            position: relative;
+            padding-bottom: 30px;
+    
+            .text-validator {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                color: #dc3545;
+                margin-top: 5px;
+            }
+        }
+    }    
 }
 
 @media (max-width: 576px) {

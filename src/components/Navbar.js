@@ -48,7 +48,7 @@ class Navbar extends Component {
         const navItems = arrayOfNavItems.map((item, i) => {
             return (
                 <Link onClick={this.toggle.bind(this)} key={i} to={item} spy={true} smooth={true} duration={1000}>
-                    <Item className="item" key={i}>
+                    <Item className="item">
                         <span>{item}</span>
                     </Item>
                 </Link>
@@ -57,7 +57,7 @@ class Navbar extends Component {
 
         return [
             
-            <div className="Nav">
+            <div key="Nav" className="Nav">
                 <div className="nav-button" onClick={this.toggle.bind(this)}>
 
                     <button className="hamburger hamburger--spin" type="button">
@@ -71,7 +71,7 @@ class Navbar extends Component {
 
             ,
 
-            <Sidebar className="sidebar" pose={isOpen ? 'open' : 'closed'}>
+            <Sidebar key="Sidebar" className="sidebar" pose={isOpen ? 'open' : 'closed'}>
                 { navItems }
             </Sidebar>
             

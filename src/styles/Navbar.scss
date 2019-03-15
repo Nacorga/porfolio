@@ -60,9 +60,14 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: $secondary-light;
+            background-color: $secondary-light;
             transform: skewX(30deg);
             z-index: -1;
+            transition: background-color .25s ease-in-out;
+        }
+
+        &:hover::after {
+            background-color: $secondary-dark;
         }
 
         span {
