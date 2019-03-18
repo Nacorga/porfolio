@@ -11,6 +11,7 @@ class HomeComponent extends Component {
 
             <div className="Hero">
                 <div className="gradient"></div>
+                <div className="mountains"></div>
                 <Fade delay={500} top>
                     <div className="row-banner">
                         

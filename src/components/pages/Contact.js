@@ -13,10 +13,10 @@ class ContactComponent extends Component {
         super();
 
         this.state = {
+            open: false,
             name: '',
             email: '',
             message: '',
-            open: false
         };
 
         this.handleInput = this.handleInput.bind(this);
@@ -39,21 +39,38 @@ class ContactComponent extends Component {
 
         e.persist(); // No screen refresh
 
-        this.setState({open: true}); // Open snackbar
-
         // Send data to the server
-        const { name, email, message } = this.state;
-        
-        axios.post('../../src/form.php', { name, email, message }).then(res => {
-            console.log(res);
-            console.log(res.data);
-        });
+        const data = {
+            name: this.state.name,
+            email: this.state.email,
+            message: this.state.message
+        } 
 
-        // Reset form
-        this.setState({
-            name: '',
-            email: '',
-            message: '',
+        axios({
+
+            method: 'post',
+            url: 'http://www.nacorga.com/form.php',
+            headers: { 'content-type': 'application/json' },
+            data: data
+
+        })
+
+        .then(result => {
+
+            this.setState({open: true}); // Open snackbar
+
+            // Reset form
+            this.setState({
+                name: '',
+                email: '',
+                message: '',
+            });
+
+        })
+
+        .catch(error => {
+            console.log('ERROR');
+            console.log(error);
         });
         
     }

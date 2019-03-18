@@ -3,16 +3,16 @@
         {
             "title": "The Key Talent",
             "dates": "April 2019 - Present",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed lorem sed purus scelerisque molestie a non tellus. Maecenas sit amet urna hendrerit, vulputate nisi vitae, suscipit lorem.",
+            "description": "Development of different products for the company.",
             "role": "Front End developer",
-            "technologies": ["Angular 4/6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git"]
+            "technologies": ["Angular 4/6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git", "Agile"]
         },
         {
             "title": "Amaris",
             "dates": "August 2018 - April 2019",
             "description": "Renovation of the AXA Group web portal within the company's technology department. This was an international project with clients from countries as Saudi Arabia, United Arab Emirates and Greece.",
             "role": "Front End developer",
-            "technologies": ["Angular 6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp"]
+            "technologies": ["Angular 6", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp", "Agile"]
         },
         {
             "title": "Hiberus Tecnología",

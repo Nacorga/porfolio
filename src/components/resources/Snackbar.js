@@ -69,7 +69,7 @@ class SnackbarComponent extends Component {
             <div>
                 <Snackbar
                     anchorOrigin={{
-                        vertical: 'top',
+                        vertical: 'bottom',
                         horizontal: 'right',
                     }}
                     open={this.props.open}
