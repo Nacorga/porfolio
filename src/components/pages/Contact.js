@@ -49,7 +49,7 @@ class ContactComponent extends Component {
         axios({
 
             method: 'post',
-            url: 'http://www.nacorga.com/form.php',
+            url: 'https://www.nacorga.com/form.php',
             headers: { 'content-type': 'application/json' },
             data: data
 
