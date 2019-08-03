@@ -1,10 +1,10 @@
 export const projects = [
     {
-        title: "Web Enjoy Madrid",
-        technology: "Angular 6",
-        img: require("../img/projects/enjoy_madrid_web.jpg"),
-        description: "Web application to discover the best places and terraces in the city of Madrid.",
-        url: "https://enjoymadrid.app"
+        title: "Promokey",
+        technology: "MEAN",
+        img: require("../img/projects/promokey.jpg"),
+        description: "Web tool to manage the information of companies dedicated to promotional gifts.",
+        url: "https://www.promokey.io"
     },
     {
         title: "App Enjoy Madrid",
