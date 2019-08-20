@@ -7,6 +7,13 @@ export const projects = [
         url: "https://www.promokey.io"
     },
     {
+        title: "Events app",
+        technology: "React",
+        img: require("../img/projects/eventapp.jpg"),
+        description: "App where you can find and subscribe to a tech events.",
+        url: "https://nacorga.github.io/eventapp/#/all-events"
+    },
+    {
         title: "App Enjoy Madrid",
         technology: "Ionic 3",
         img: require("../img/projects/enjoy_madrid_app.jpg"),
@@ -48,11 +55,4 @@ export const projects = [
         description: "Web app about parks and gardens in Madrid using ArcGis Online. This application contains filters on trees, shrubs and equipment that contain each point. We can also search for green spaces by name or proximity.",
         url: "https://nachocortes.maps.arcgis.com/apps/webappviewer/index.html?id=1de39f3d7cb249b88c996f926c33e47d"
     },
-    {
-        title: "Grupo Octilus",
-        technology: "Wordpress",
-        img: require("../img/projects/grupo_octilus.jpg"),
-        description: "Corporative web design and development of an ecommerce.",
-        url: "http://grupooctilus.com/"
-    }
 ];
