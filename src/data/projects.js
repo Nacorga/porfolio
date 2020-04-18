@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: "Be Youurself blog",
+        technology: "MEAN",
+        img: require("../img/projects/beyouurself.png"),
+        description: "Personal blog with admin section like a Wordpress",
+        url: "https://www.beyouurself.com"
+    },
+    {
         title: "Promokey",
         technology: "MEAN",
         img: require("../img/projects/promokey.jpg"),
@@ -41,13 +48,13 @@ export const projects = [
         description: "A template using the API of Google Maps where you can place points on the map. I add functions like geocode and places autocomplete. ",
         url: "https://nacorga.github.io/google-maps/"
     },
-    {
-        title: "Web template",
-        technology: "HTML / CSS / Jquery",
-        img: require("../img/projects/web_template.jpg"),
-        description: "A template for a service company.",
-        url: "https://nacorga.github.io/service-web-template/"
-    },
+    // {
+    //     title: "Web template",
+    //     technology: "HTML / CSS / Jquery",
+    //     img: require("../img/projects/web_template.jpg"),
+    //     description: "A template for a service company.",
+    //     url: "https://nacorga.github.io/service-web-template/"
+    // },
     {
         title: "Green Space Madrid",
         technology: "HTML / CSS / Javascript",

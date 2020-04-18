@@ -1,36 +1,36 @@
 {
     "bars": [
         {
-            "name": "Angular 5+",
+            "name": "Angular",
+            "percent": 90
+        },
+        {
+            "name": "Ionic",
             "percent": 85
         },
         {
-            "name": "Ionic 3+",
-            "percent": 75
-        },
-        {
             "name": "React",
-            "percent": 70
+            "percent": 75
         },
         {
             "name": "Typescript",
-            "percent": 70
+            "percent": 85
         },
         {
             "name": "Javascript",
-            "percent": 75
+            "percent": 90
         },
         {
             "name": "AWS",
-            "percent": 60
+            "percent": 65
         },
         {
             "name": "Node.js",
-            "percent": 70
+            "percent": 75
         },
         {
             "name": "Git",
-            "percent": 80
+            "percent": 90
         },
         {
             "name": "HTML & CSS",

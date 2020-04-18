@@ -1,32 +1,39 @@
 {
     "works": [
         {
+            "title": "Sopra Steria",
+            "dates": "February 2020 - Present",
+            "description": "Different projects within the company according to the client's needs such as the development from scratch of a hybrid application with Ionic for Banco Santander. I also participated in a training process with LitElement.",
+            "role": "Senior Front End developer",
+            "technologies": ["Ionic 5", "LitElement", "Typescript", "Javascript", "Git", "Agile"]
+        },
+        {
             "title": "The Key Talent",
-            "dates": "April 2019 - Present",
-            "description": "Development of different products for the company.",
+            "dates": "April 2019 - February 2020",
+            "description": "Maintenance and development with Angular of new functionalities in applications related to the management of candidates for HR. All of this is done using agile methodologies, clean code and the use of Git.",
             "role": "Front End developer",
-            "technologies": ["Angular 5+", "HTML5", "CSS3", "SCSS", "Javascript", "Jquery", "Git", "Agile"]
+            "technologies": ["Angular", "Typescript", "Javascript", "Jquery", "Git", "Agile"]
         },
         {
             "title": "Amaris",
             "dates": "August 2018 - April 2019",
-            "description": "Renovation of the AXA Group web portal within the company's technology department. This was an international project with clients from countries as Saudi Arabia, United Arab Emirates and Greece.",
+            "description": "International project for the client AXA Seguros in collaboration with the United Arab Emirates and Saudi Arabia in which he was one of the people responsible for the renovation of its public portal via Liferay and Angular. All this using Agile methodologies and the use of Git.",
             "role": "Front End developer",
-            "technologies": ["Angular 5+", "HTML5", "CSS3", "SASS", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp", "Agile"]
+            "technologies": ["Angular 5+", "Typescript", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp", "Agile"]
         },
         {
             "title": "Hiberus Tecnología",
             "dates": "January 2018 to August 2018",
-            "description": "Project with the Spanish public television (RTVE) where I collaborated with the innovation department in the development of web and hybrid applications. I also participated in the design of the content of the public portal.",
+            "description": "Project with the client RTVE in which he was one of the maintainers and developers of public apps and web portals using Angular, Ionic and React.",
             "role": "Front End developer",
-            "technologies": ["Angular 5+", "Ionic 3", "HTML5", "CSS3", "SASS", "Javascript", "Jquery"]
+            "technologies": ["Angular", "Ionic", "React", "Typescript", "Javascript", "Jquery"]
         },
         {
             "title": "Grupo Octilus S.L.",
             "dates": "March 2017 - January 2018",
             "description": "Responsible for the design and layout of ecommerce about mobile accessories. I was also managing the content of the portal.",
             "role": "Web master",
-            "technologies": ["HTML5", "CSS3", "Magento", "Illustrator", "Photoshop"]
+            "technologies": ["Javascript", "Jquery", "HTML5", "CSS3", "Illustrator", "Photoshop"]
         }
     ]
 }
