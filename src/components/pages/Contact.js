@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { ValidatorForm } from 'react-form-validator-core';
 import TextValidator from '../resources/TextValidator';
 import SnackbarComponent from '../resources/Snackbar';
-import axios from 'axios';
+import { send } from 'emailjs-com';
 import '../../styles/Contact.scss';
 
 class ContactComponent extends Component {
@@ -37,41 +37,30 @@ class ContactComponent extends Component {
 
     handleSubmit(e) {
 
-        e.persist(); // No screen refresh
+        e.persist();
 
-        // Send data to the server
         const data = {
-            name: this.state.name,
-            email: this.state.email,
+            from_name: this.state.name,
+            from_email: this.state.email,
             message: this.state.message
-        } 
+        }
 
-        axios({
+        const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+        const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+        const USER_ID = process.env.REACT_APP_USER_ID;
 
-            method: 'post',
-            url: 'https://www.nacorga.com/form.php',
-            headers: { 'content-type': 'application/json' },
-            data: data
-
-        })
-
-        .then(result => {
-
-            this.setState({open: true}); // Open snackbar
-
-            // Reset form
-            this.setState({
-                name: '',
-                email: '',
-                message: '',
+        send(SERVICE_ID, TEMPLATE_ID, data, USER_ID)
+            .then(() => {
+                this.setState({open: true});
+                this.setState({
+                    name: '',
+                    email: '',
+                    message: '',
+                });
+            })
+            .catch(() => {
+                alert("An error occurred, Please try again");
             });
-
-        })
-
-        .catch(error => {
-            console.log('ERROR');
-            console.log(error);
-        });
         
     }
 

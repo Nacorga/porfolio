@@ -3,11 +3,10 @@
 .Projects {
 
     .projects-section {
-        height: 500px;
+        height: 250px;
         width: 100%;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50% 50%;
+        grid-template-columns: repeat(4, 25%);
     }
 
     .project {
@@ -97,10 +96,6 @@
 
     .Projects {
 
-        .projects-section {
-            height: 400px;
-        }
-
         .project {
     
             .text {
@@ -131,11 +126,11 @@
     .Projects {
 
         .projects-section {
-            height: 800px;
+            height: 400px;
             width: 100%;
             display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 25% 25% 25% 25%;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, 50%);
         }
     }
 }

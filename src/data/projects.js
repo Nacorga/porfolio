@@ -1,10 +1,17 @@
 export const projects = [
     {
-        title: "Be Youurself blog",
-        technology: "MEAN",
-        img: require("../img/projects/beyouurself.png"),
-        description: "Personal blog with admin section like a Wordpress",
-        url: "https://www.beyouurself.com"
+        title: "Neboolar",
+        technology: "Next.js",
+        img: require("../img/projects/neboolar.png"),
+        description: "Recruitment platform for digital profiles that aims to facilitate the selection process.",
+        url: "https://www.neboolar.com/"
+    },
+    {
+        title: "Earthquakes Map Visualizer",
+        technology: "React.js",
+        img: require("../img/projects/earthquakes.png"),
+        description: "Web app where you can view earthquakes worldwide filtered by date or date range.",
+        url: "https://nacorga.github.io/earthquakes-map-visualizer/"
     },
     {
         title: "Promokey",
@@ -14,52 +21,10 @@ export const projects = [
         url: "https://www.promokey.io"
     },
     {
-        title: "Events app",
-        technology: "React",
-        img: require("../img/projects/eventapp.jpg"),
-        description: "App where you can find and subscribe to a tech events.",
-        url: "https://nacorga.github.io/eventapp/#/all-events"
-    },
-    {
-        title: "App Enjoy Madrid",
-        technology: "Ionic 3",
-        img: require("../img/projects/enjoy_madrid_app.jpg"),
-        description: "Mobile app to discover the best places and terraces in the city of Madrid.",
-        url: "https://play.google.com/store/apps/details?id=enjoy.madrid"
-    },
-    {
-        title: "Terracitas Madrid",
-        technology: "Ionic 3",
-        img: require("../img/projects/terracitas_madrid.jpg"),
-        description: "Mobile application of all the terraces in the city of Madrid. Project published in Madrid Open Data Portal.",
-        url: "https://play.google.com/store/apps/details?id=io.terracitas.madrid&hl=es_419"
-    },
-    {
-        title: "Tasks list",
-        technology: "React",
-        img: require("../img/projects/tasks_list.jpg"),
-        description: "An example of app where you can create and delete tasks.",
-        url: "https://nacorga.github.io/react-tasks/"
-    },
-    {
-        title: "Google Maps",
-        technology: "Javascript",
-        img: require("../img/projects/google_maps.jpg"),
-        description: "A template using the API of Google Maps where you can place points on the map. I add functions like geocode and places autocomplete. ",
-        url: "https://nacorga.github.io/google-maps/"
-    },
-    // {
-    //     title: "Web template",
-    //     technology: "HTML / CSS / Jquery",
-    //     img: require("../img/projects/web_template.jpg"),
-    //     description: "A template for a service company.",
-    //     url: "https://nacorga.github.io/service-web-template/"
-    // },
-    {
-        title: "Green Space Madrid",
-        technology: "HTML / CSS / Javascript",
-        img: require("../img/projects/green_spaces_madrid.jpg"),
-        description: "Web app about parks and gardens in Madrid using ArcGis Online. This application contains filters on trees, shrubs and equipment that contain each point. We can also search for green spaces by name or proximity.",
-        url: "https://nachocortes.maps.arcgis.com/apps/webappviewer/index.html?id=1de39f3d7cb249b88c996f926c33e47d"
-    },
+        title: "Web template",
+        technology: "HTML / CSS / Jquery",
+        img: require("../img/projects/web_template.jpg"),
+        description: "A template for a service company.",
+        url: "https://nacorga.github.io/service-web-template/"
+    }
 ];

@@ -1,8 +1,15 @@
 {
     "works": [
         {
+            "title": "Ribera Salud",
+            "dates": "May 2020 - Present",
+            "description": "International project with an American multinational company for the development of its Health Platform using Angular as a framework and microfrontend architecture. In my position, I act as one of the leaders of the front end when it comes to decision making and team coordination.",
+            "role": "Senior Front End developer",
+            "technologies": ["Angular", "Typescript", "Javascript", "Git", "Agile"]
+        },
+        {
             "title": "Sopra Steria",
-            "dates": "February 2020 - Present",
+            "dates": "February 2020 - April 2020",
             "description": "Different projects within the company according to the client's needs such as the development from scratch of a hybrid application with Ionic for Banco Santander. I also participated in a training process with LitElement.",
             "role": "Senior Front End developer",
             "technologies": ["Ionic 5", "LitElement", "Typescript", "Javascript", "Git", "Agile"]
@@ -19,7 +26,7 @@
             "dates": "August 2018 - April 2019",
             "description": "International project for the client AXA Seguros in collaboration with the United Arab Emirates and Saudi Arabia in which he was one of the people responsible for the renovation of its public portal via Liferay and Angular. All this using Agile methodologies and the use of Git.",
             "role": "Front End developer",
-            "technologies": ["Angular 5+", "Typescript", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp", "Agile"]
+            "technologies": ["Angular", "Typescript", "Javascript", "Jquery", "Git", "Liferay DXP", "Gulp", "Agile"]
         },
         {
             "title": "Hiberus Tecnología",
